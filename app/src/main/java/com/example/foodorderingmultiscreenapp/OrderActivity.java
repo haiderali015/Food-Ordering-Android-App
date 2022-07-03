@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.TextView;
 
 public class OrderActivity extends AppCompatActivity {
 
@@ -14,5 +15,8 @@ public class OrderActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         String message = intent.getStringExtra(MainActivity.MSG);
+
+        TextView textView = findViewById(R.id.secondtextview);
+        textView.setText(message);
     }
 }
