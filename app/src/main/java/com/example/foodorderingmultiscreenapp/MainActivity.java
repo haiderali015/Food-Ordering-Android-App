@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
+    public static final String MSG = "com.example.foodorderingmultiscreenapp.MSG";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
 
         String message = editText1.getText().toString()+" "+editText2.getText().toString()+" "
                          +editText3.getText().toString();
+        intent.putExtra(MSG,message);
+        startActivity(intent);
 
     }
 }
