@@ -22,7 +22,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/editText1"
         android:layout_width="219dp"
         android:layout_height="76dp"
         android:layout_margin="3dp"
@@ -34,8 +34,8 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName5"
-        android:layout_width="221dp"
+        android:id="@+id/editText2"
+        android:layout_width="219dp"
         android:layout_height="75dp"
         android:layout_marginTop="8dp"
         android:ems="10"
@@ -43,11 +43,11 @@
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/editText1" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName6"
-        android:layout_width="221dp"
+        android:id="@+id/editText3"
+        android:layout_width="219dp"
         android:layout_height="79dp"
         android:layout_marginTop="8dp"
         android:ems="10"
@@ -55,7 +55,7 @@
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5" />
+        app:layout_constraintTop_toBottomOf="@+id/editText2" />
 
     <Button
         android:id="@+id/button"
@@ -70,6 +70,6 @@
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName6" />
+        app:layout_constraintTop_toBottomOf="@+id/editText3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
