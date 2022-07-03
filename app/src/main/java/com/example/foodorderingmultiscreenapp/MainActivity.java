@@ -21,5 +21,8 @@ public class MainActivity extends AppCompatActivity {
         EditText editText2 = findViewById(R.id.editText2);
         EditText editText3 = findViewById(R.id.editText3);
 
+        String message = editText1.getText().toString()+" "+editText2.getText().toString()+" "
+                         +editText3.getText().toString();
+
     }
 }
