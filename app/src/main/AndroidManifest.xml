@@ -11,6 +11,7 @@
         android:theme="@style/Theme.FoodOrderingMultiscreenApp">
         <activity
             android:name=".OrderActivity"
+            android:parentActivityName=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
